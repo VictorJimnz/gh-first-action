@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Printing greeting
         run: echo "Hello, world!"
-      - name: Printing greeting
+      - name: Printing Multiplelines
+        run: |
+          echo "First output"
+          echo "Second output"
+      - name: Printing Bye
         run: echo "Done - bye!"
